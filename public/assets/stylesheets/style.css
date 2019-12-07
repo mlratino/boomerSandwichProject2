@@ -1,0 +1,289 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+/* Background image */
+
+
+body {
+  background-image: url("../images/aaron-burden-tb4wis6XoQk-unsplash.jpg");
+  background-color: rgb(182, 164, 154)
+}
+
+
+.topbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #480b19;
+  height: 120px;
+
+}
+
+
+.myButton {
+  float: right;
+  box-shadow: inset 0px 1px 0px 0px #f29c93;
+  background: linear-gradient(to bottom, #cd704e 5%, #c14343 100%);
+  /* background-color: #3b2523; */
+  border-radius: 6px;
+  border: 1px solid #3b130f;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
+}
+
+.myButton:hover {
+  color: wheat;
+  background: linear-gradient(to bottom, #a78282 5%, #520101 100%);
+  background-color: #645555;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton2 {
+  float: right;
+  box-shadow: inset 0px 1px 0px 0px #f29c93;
+  background: linear-gradient(to bottom, #b5c0d1 5%, #323041 100%);
+  /* background-color: #3b2523; */
+  border-radius: 6px;
+  border: 1px solid #3b130f;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
+}
+
+.myButton3 {
+  float: right;
+  box-shadow: inset 0px 1px 0px 0px #f29c93;
+  background: linear-gradient(to bottom, #9dc98a 5%, #166e24 100%);
+  /* background-color: #3b2523; */
+  border-radius: 6px;
+  border: 1px solid #3b130f;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
+}
+
+.myModal {
+  border-radius: 4%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3c603b+0,e8fcab+100 */
+  background: #3c603b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3c603b 0%, #e8fcab 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #3c603b 0%, #e8fcab 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #3c603b 0%, #e8fcab 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c603b', endColorstr='#e8fcab', GradientType=0);
+  /* IE6-9 */
+
+  /* background-color: #9eb395 */
+}
+
+.myCard {
+  background-color: rgb(239, 239, 211);
+}
+
+.myList {
+  color: wheat;
+}
+
+.jumbotron {
+  background-image: url("../images/annie-spratt-W6RXSc8OWN0-unsplash.jpg");
+  background-color: rgb(233, 224, 224);
+  color: black;
+}
+
+li,
+p,
+h2,
+h4 {
+  color: white;
+  color: rgb(210, 200, 200);
+}
+
+section {
+  height: 100px;
+  /* background-image: url("../images/download-4.jpg"); */
+  background-blend-mode: lighten;
+  text-align: center;
+}
+
+.leafbar {
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+
+.notBlueLink {
+  color: white;
+}
+
+.topSection {
+  height: 1000 px;
+  color: white;
+}
+
+.entry-social {
+  margin-bottom: 20px;
+  color: rgb(126, 126, 126);
+  display: block;
+  font-family: 'Open Sans', Tahoma, Verdana, Arial, sans-serif, Faruma, Faseyha;
+  font-size: 14px;
+  font-weight: normal;
+  height: auto;
+  line-height: 23.799999237060547px;
+  margin-bottom: 20px;
+  width: 100%;
+  width: 100%;
+  float: left;
+  border: solid 0px #aaa;
+  text-align: center;
+}
+
+.entry-social div {
+  display: block;
+  width: 138px;
+  margin: 2px;
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+
+.entry-social a {
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+.entry-social .fb a {
+  padding: 7px 10px 7px 26px;
+  background: #3B5999 url('https://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png') no-repeat 10px center;
+}
+
+.entry-social .twitter a {
+  padding: 7px 10px 7px 32px;
+  background: rgb(115, 146, 155) url('https://3.bp.blogspot.com/-0u8P4VQmEeU/UeDlVdilwcI/AAAAAAAAAro/lGTnlvHGyVw/s1600/twitter14.png') no-repeat 8px center;
+}
+
+.entry-social .gplus a {
+  padding: 7px 10px 7px 32px;
+  background: #D54135 url('https://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png') no-repeat 10px center;
+}
+
+.entry-social .linkedin a {
+  padding: 7px 10px 7px 32px;
+  background: #136F9B url('https://4.bp.blogspot.com/-yuEMxhpIXPc/UeDltjBGR1I/AAAAAAAAAr4/kgidavlGbY8/s1600/linkedin14.png') no-repeat 10px center;
+}
+
+.entry-social .pinterest a {
+  padding: 7px 10px 7px 32px;
+  background: #480b19 url('https://1.bp.blogspot.com/-v-ZkEQhYpug/UeDl6uIio-I/AAAAAAAAAsA/9rqq2cXT08k/s320/pinterest14.png') no-repeat 10px center;
+}
+
+.entry-social .delicious a {
+  padding: 7px 10px 7px 32px;
+  background: rgb(170, 188, 214) url('https://2.bp.blogspot.com/-J9p31gkQfXw/UeDmILHMQwI/AAAAAAAAAsI/bEws_iRNx7g/s320/delicious14.png') no-repeat 10px center;
+}
+
+.entry-social .fb a:hover {
+  background-color: rgb(50, 75, 129);
+}
+
+.entry-social .twitter a:hover {
+  background-color: rgb(1, 159, 211);
+}
+
+.entry-social .gplus a:hover {
+  background-color: rgb(191, 52, 40);
+}
+
+.entry-social .linkedin a:hover {
+  background-color: rgb(15, 89, 125);
+}
+
+.entry-social .pinterest a:hover {
+  background-color: rgb(174, 28, 35);
+}
+
+.entry-social .delicious a:hover {
+  background-color: rgb(38, 90, 168);
+}
+
+
+
+/* @media only screen and (max-device-width: 480px) {
+  div#wrapper {
+    width: 400px;
+  }
+
+  div#header {
+    background-image: url(media-queries-phone.jpg);
+    height: 93px;
+    position: relative;
+  }
+
+  div#header h1 {
+    font-size: 140%;
+  }
+
+  #content {
+    float: none;
+    width: 100%;
+  }
+
+  #navigation {
+    float: none;
+    width: auto;
+  }
+} */
+@media only screen and (max-width: 480px),
+only screen and (max-device-width: 480px) {
+  div#wrapper {
+    width: 400px;
+  }
+
+  div#header {
+    background-image: url(media-queries-phone.jpg);
+    height: 93px;
+    position: relative;
+  }
+
+  div#header h1 {
+    font-size: 140%;
+  }
+
+  #content {
+    float: none;
+    width: 100%;
+  }
+
+  #navigation {
+    float: none;
+    width: auto;
+  }
+
+}
